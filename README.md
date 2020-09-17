@@ -17,13 +17,13 @@ Copyright (C) 2008-2019 SciDB, Inc.
 Query was executed successfully
 
 > iquery --afl --query "kword()"
-{No} foo
+{bar} foo
 > iquery --afl --query "kword(foo:'1')"
-{No} foo
+{bar} foo
 > iquery --afl --query "kword(foo:'1', bar:'2')"
-{No} foo
+{bar} foo
 > iquery --afl --query "kword(bar:'2')"
-{No} foo
+{bar} foo
 
 
 # -- - Issue 1 - --
