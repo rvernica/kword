@@ -1,6 +1,6 @@
 This repository implements an operator called `kword`. The operator
 takes two named arguments (`foo` and `bar`) of type `string`. The
-operator returns an empty string with the `<foo:string NOT NULL>
+operator returns an empty array with the `<foo:string NOT NULL>
 [bar=0:0:0:1]` schema. The operator exposes three different issues,
 listed below.
 
